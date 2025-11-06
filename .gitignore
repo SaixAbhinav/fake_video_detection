@@ -1,34 +1,45 @@
-# Byte-compiled / optimized / DLL files
+# Python
 __pycache__/
 *.py[cod]
 *$py.class
+*.so
+.Python
+.env
+.venv*
+env/
+venv/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# ML/Data Science
+data/
+datasets/
+*.h5
+*.pth
+*.ckpt
+*.pt
+models/
+saved_models/
+runs/
+wandb/
+logs/
+tensorboard/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# System
+.DS_Store
+Thumbs.db
 
 # Distribution / packaging
-build/
 dist/
+build/
 *.egg-info/
-
-# Virtual environments
-.venv/
-venv/
-env/
-
-# Jupyter Notebook checkpoints
-.ipynb_checkpoints
-
-# IDEs
-.vscode/
-.idea/
-
-# Data and large files
-**/data/
-*.zip
-*.tar.gz
-*.h5
 
 # Logs
 *.log
-
-# OS files
-Thumbs.db
-.DS_Store
